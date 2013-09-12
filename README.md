@@ -64,4 +64,4 @@ Installation
 Thanks
 ------
 This project was largely inspired by the [Gossip Girl](https://github.com/wanelo/gossip_girl) backend and uses [priority queue code](https://github.com/STRd6/PriorityQueue.js) from Daniel Moore
-Thanks to the folks at etsy for (statsd)[https://github.com/etsy/statsd]
+Thanks to the folks at etsy for [statsd](https://github.com/etsy/statsd)
