@@ -96,12 +96,12 @@ StatsDedupe.prototype.decode = function(msg, rinfo) {
 				if(fields[2] !== undefined ) {
 					if(fields[2].match(/^#(\d+)/)) {
 						var matches = fields[2].match(/^#(\d+)(\w*)/);
-						var unit = matches[2];
+						var unit = matches[2] || 'ms';
 						retention = Number(matches[1])*self.unit_to_milliseconds(unit);
 					}
 					else if(fields[3] !== undefined) {
 						var matches = fields[3].match(/^#(\d+)(\w*)/);
-						var unit = matches[2];
+						var unit = matches[2] || 'ms';
 						if(fields[3].match(/^#(\d+)/)) {
 							retention = Number(matches[1])*self.unit_to_milliseconds(unit);
 						}
