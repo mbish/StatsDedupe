@@ -41,6 +41,8 @@ this specifies weather a packet should be sent out immediately when a new key is
 `hosts: [{host: <address>, port: <port>},...]`	(defaults to parent statsd)
 this specifies the statsd hosts statsdedupe should send data to.
 
+Also see the [example config](https://github.com/mbish/StatsDedupe/blob/master/exampleStatsDedupeConfig.js)
+
 Output
 ------
 
