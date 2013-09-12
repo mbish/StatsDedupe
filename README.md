@@ -30,7 +30,7 @@ Valid units on the end of the expiration are
 * Hours - h
 * Days - d
 
-*warning* Having the same key sent with different expirations is probably _not_ what you want. This will lead to metrics which are harder to interperet.
+**Warning**: Having the same key sent with different expirations is probably _not_ what you want. This will lead to metrics which are harder to interperet.
 
 Configuration
 -------------
