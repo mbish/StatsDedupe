@@ -1,0 +1,19 @@
+{
+  "name"        : "statsdedupe",
+  "description" : "A pluggable statsd backend to deduplicate set data over an arbitrary time period",
+  "repository"  : {
+                   "type" : "git", 
+                   "url"  : "git://github.com/mbish/statsdedupe.git"
+                   },
+  "keywords"    : "statsd",
+  "author"      : "Mark Bishop <mbish@umich.edu>",
+  "main"        : "./backends/statsdedupe.js",
+  "version"     : "1.0.0",
+  "engines"     : {
+                  "node"  : ">=0.6"
+                  },
+  "license"     : "MIT",
+  "dependencies": {
+                  "statsd"    : ">=0.5.0"
+                  }
+}
