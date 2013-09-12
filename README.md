@@ -12,8 +12,8 @@ OR
 e.g.
 `active_users:joe-bob|s|#1m`
 
-This backend collects all set data but keeps each value for the specified time
-Ever flush interval it then reports the size of each set as a gague to a given list of backends
+This backend collects all set data which it deduplicates just like a normal set metric. The backend keeps each value in the set for the specified time.
+Every flush interval it then reports the size of each set as a gague to a given list of backends
 (it's parent statsd server by default).
 
 Aging Specifics
