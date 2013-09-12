@@ -12,7 +12,7 @@ OR
 e.g.
 `active_users:joe-bob|s|#1m`
 
-This backend collects all set data which it deduplicates just like a normal set metric. The backend keeps each value in the set for the specified time.
+This backend collects all set data which it deduplicates just like a normal set metric. The backend then keeps each value in the set for the specified amount of time (see notation above).
 Every flush interval it then reports the size of each set as a gague to a given list of backends
 (it's parent statsd server by default).
 
