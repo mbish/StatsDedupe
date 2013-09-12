@@ -10,7 +10,7 @@ OR
 `key:value|s|@sampe-rate|#age`
 
 e.g.
-`active\_users:joe-bob|s|#1m`
+`active_users:joe-bob|s|#1m`
 
 This backend collects all set data but keeps each value for the specified time
 Ever flush interval it then reports the size of each set as a gague to a given list of backends
@@ -45,7 +45,7 @@ Output
 ------
 
 Each set size is output as a simple gague with the same key name as the set
-`key:set\_size|g`
+`key:set_size|g`
 
 Installation
 ------------
