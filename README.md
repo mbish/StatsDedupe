@@ -19,9 +19,9 @@ Every flush interval it then reports the size of each set as a gague to a given 
 Aging Specifics
 ---------------
 
-The set data is kept for the amount of time specified by the MOST RECENT packet so
+The set data is kept for the amount of time specified by the _most recent_ packet so
 if you need to expire a key immediately you can just send out
-key:value|s|#0
+`key:value|s|#0`
 
 Valid units on the end of the expiration are
 * Milliseconds - ms (default)
