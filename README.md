@@ -1,7 +1,7 @@
 StatsDedupe
 ===========
 
-A backend for statsd that aggregates and ages out set data based on arbitrary time limits
+A backend for [statsd](https://github.com/etsy/statsd) that aggregates and ages out set data based on arbitrary time limits
 
 The syntax for the expiration of a set value is
 
@@ -64,3 +64,4 @@ Installation
 Thanks
 ------
 This project was largely inspired by the [Gossip Girl](https://github.com/wanelo/gossip_girl) backend and uses [priority queue code](https://github.com/STRd6/PriorityQueue.js) from Daniel Moore
+Thanks to the folks at etsy for (statsd)[https://github.com/etsy/statsd]
