@@ -23,7 +23,7 @@ The set data is kept for the amount of time specified by the MOST RECENT packet 
 if you need to expire a key immediately you can just send out
 key:value|s|#0
 
-Valid units on the end of the time are
+Valid units on the end of the expiration are
 * Milliseconds - ms (default)
 * Seconds - s
 * Minutes - m
