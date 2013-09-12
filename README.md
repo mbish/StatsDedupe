@@ -3,7 +3,7 @@ StatsDedupe
 
 A backend for statsd that aggregates and ages out set data based on arbitrary time limits
 
-The syntax for the age of a set value is
+The syntax for the expiration of a set value is
 
 `key:value|s|#age`
 OR
